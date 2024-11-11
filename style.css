@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    position: relative;
+}
+
+
+#div-nome {
+    width: 40%;
+    margin-left: 450px;
+    height: 80px;
+    height: 32px;
+}
+
+#div-endereco {
+    width: 40%;
+    height: 32px;
+}
+
+#div-cep {
+    width: 40%;
+    margin-left: 450px;
+    height: 80px;
+    margin-top: -140px;
+    height: 32px;
+}
+
+#div-cpf {
+    width: 40%;
+    height: 80px;
+    margin-top: -140px;
+    height: 32px;
+}
+
+#div-telefone {
+    width: 40%;
+    margin-left: 450px;
+    height: 80px;
+    margin-top: -280px;
+    height: 32px;
+}
+
+#div-cnpj {
+    width: 40%;
+    height: 80px;
+    margin-top: -280px;
+    height: 32px;
+}
+
+#div-codigo {
+    width: 83%;
+    margin-left: 450px;
+    margin-top: -420px;
+    height: 100px;
+    height: 32px;
+}
+
+#input-nome {
+    margin-left: 140px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+#input-endereco {
+    height: 30px;
+    padding-left: 5px;
+}
+
+#input-cep {
+    margin-left: 140px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+#input-cpf {
+    height: 30px;
+    padding-left: 5px;
+}
+
+#input-telefone {
+    margin-left: 140px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+#input-cnpj {
+    height: 30px;
+    padding-left: 5px;
+}
+
+#input-codigo {
+    margin-left: 140px;
+    width: 58%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+button {
+
+    height: 40px;
+    width: 100px;
+    position: relative;
+    top: -350px;
+    left: -200px;
+}
